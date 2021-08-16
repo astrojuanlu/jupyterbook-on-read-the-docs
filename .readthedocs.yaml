@@ -1,0 +1,12 @@
+version: 2
+
+build:
+  image: testing
+
+sphinx:
+  configuration: book/conf.py
+
+python:
+  version: "3.9"
+  install:
+  - requirements: book/requirements.txt
