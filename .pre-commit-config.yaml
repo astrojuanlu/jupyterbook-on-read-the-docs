@@ -1,0 +1,8 @@
+# See https://pre-commit.com for more information
+# See https://pre-commit.com/hooks.html for more hooks
+repos:
+- repo: https://github.com/executablebooks/jupyter-book
+  rev: 04fdc37fc246d44a53c6b231c3d8566d2b0f305e
+  hooks:
+  - id: jb-to-sphinx
+    args: ["./book"]
